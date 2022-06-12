@@ -39,10 +39,45 @@ hr {
     padding: 1em;
 }
 
-#prof-pic {}
-
 img {
     width: 180px;
     height: 180px;
+    margin-bottom: 1em;
     border-radius: 100%;
+}
+
+h2 {
+    color: #061c28;
+    letter-spacing: .2em;
+    margin-bottom: .2em;
+}
+
+h3 {
+    color: #a8d4ec;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: .2em;
+}
+
+p {
+    color: #a7aaad;
+    line-height: 1.4em;
+}
+
+#controls button {
+    color: #56a6d4;
+    background-color: white;
+    border: none;
+    border-radius: 1em;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+#random {
+    color: #56a6d4;
+    background-color: #dde9eb;
+    border: solid 1px #56a6d4;
+    border-radius: 1em;
+    padding: .5em 1em;
+    cursor: pointer;
 }
